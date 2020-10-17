@@ -126,4 +126,6 @@ docker login
 docker tag <image> yourlogin/dockerdemo
 docker push yourlogin/dockerdemo
 
+docker build -t your-login/dockerdemo .
+docker push yourlogin/dockerdemo
 
