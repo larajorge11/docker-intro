@@ -122,6 +122,8 @@ docker run -p 4000:80 -d gcr.io/[project-id]/node-app:0.2
 curl http://localhost:4000
 
 
-
+docker login
+docker tag <image> yourlogin/dockerdemo
+docker push yourlogin/dockerdemo
 
 
